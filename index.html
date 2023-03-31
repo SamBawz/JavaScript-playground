@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sam Bos</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+</head>
+<body>
+<div class="button-container">
+    <span class="material-icons" style="font-size: 64px; pointer-events: none;">
+expand_more
+</span>
+    <button id="constellation">Constellation</button>
+    <button id="load-one">Loadscreen 1</button>
+    <button>Loadscreen 1</button>
+    <button>Loadscreen 1</button>
+</div>
+
+<canvas id="canvas"></canvas>
+<div id="loader-wrapper">
+    <img src="img/Logo%20v2%20outlined%20transparent.svg" id="loader-icon">
+    <p id="loader-text">LOADING</p>
+</div>
+
+<!-- canvas -->
+<script src="js/canvas.js" type="module"></script>
+<!-- Loader -->
+<script src="js/particles.js" type="module"></script>
+</body>
+</html>
